@@ -1,0 +1,15 @@
+.bg-image {
+  @apply flex items-center justify-center relative w-full;
+  height: 600px;
+  background-image: url("https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dG9kb3xlbnwwfHwwfHx8MA%3D%3D");
+}
+
+.bg-content {
+  @apply flex relative flex-col;
+  width: 400px;
+}
+
+.header-title {
+  @apply text-white text-2xl font-bold;
+  letter-spacing: 8px;
+}
